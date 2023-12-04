@@ -21,6 +21,8 @@ Definition: The foundation for most AI solutions
 How does it work:
 
 - Machines (computers) learn from data
+- AI uses data to make predictions and inferences
+- Machine learning models capture the relationship between data.
 - Data Scientists use data to train machine learning models to make predicitons based on data.
 
 ### Machine Learning on Azure
@@ -28,7 +30,8 @@ How does it work:
 - **Automated ML (AutoML)**: Create effective ML models with no expertise needed
 - **Azure ML Designer**: A GUI for no-code development of ML models
 - **Data and Compute**: Cloud-based resources for data scientists tu run experiments
-- **Pipelines**: A way to orchestrate tasks like training, validation, and deployment
+- **Data metric visualization**: analyze and optimize experiments with visualization
+- **Notebook**: write and run code in Jupter Notebook servers that directly integrated in the studio
 
 ### Anomaly Detection
 
@@ -39,6 +42,7 @@ Definition: Analyzing data over time to identify unusual changes
 ### Computer Vision
 
 Definition: Area of AI for visual processing based on interpretation of images and video
+e.g. Seeing AI app - an example of the power of computer vision
 
 **Models and capabilities**
 
@@ -53,10 +57,12 @@ Definition: Area of AI for visual processing based on interpretation of images a
 
 Azure Services
 
-- **Computer Vision**: Analyse images and videos to extract descriptions, tags, objects and text
-- **Custom Vision**: Customized image classification with your own images
+**Azure AI Vision**
+
+Features:
+- **Image Analysis**: Azure AI Vision - Analyse images and videos to extract descriptions, tags, objects and text
 - **Face**: Face detection and facial recognition solutions
-- **Form Recognizer**: Information extraction from scanned documents
+- **Optical Character Recognition (OCR)**: capabilities for extracting printed or handwritten text from images, enabling access to a digital version of the scanned text.
 
 ### Natural Language Processing
 
@@ -67,21 +73,36 @@ Uses:
 - Analyze and interpret text in documents
 - Interpret spoken language
 - Translattion of written and spoken languages
-- Interpret commands
+- Interpret commands and determine approriate actions
 
 Azure Services
 
-- **Language**:  Analyze text or spoken language to build smart applications
+Azure AI
+
+- **Language**:  Understand and analyze text or spoken language to build smart applications
 - **Translator**: Translation service for more than 60 languages
 - **Speech**:  Recognize and synthesize speech and translate to other languages
 - **Azure Bot**: Conversational AI with the ability to connect to channels like email, Teams, and web chat
 
 
-### Knowledge Mining
+### Document Intelligence and Knowledge Mining
 
-Definition: Describe solutions about extracting information from unstructured data to create a searchable one
+**Document Intelligence**: deals with managing, processing and using high volumes of variety of data found in forms and documents. Create software to automate processing of contracts, health documents, financial forms.
 
-Azure Service: Azure Cognitive Search, and enterprise solution for building searchable indexes from private or public assets including analyzing images.
+Uses:
+Document Intelligence Studio to build solutions that manage and data collection from scanned documents.  
+
+**Knowledge Mining**: extracting information from large volumes of unstructured data to create a searchable knowledge store.
+
+**Azure Cognitive Search**- Knowledge mining solution capable of image processing, document intelligence, and natural language processing to extract data.
+
+###  Understand generative AI
+
+**Generative AI**: has abilities to generate original content.  It takes natural language input and return approriate responses in variety of formats including natural language, image, code and audio.
+
+**Generative AI in Azure**
+
+Azure OpenAI service can be used to build generative AI solutions.  It supports many foundation model choices that can serve different needs. The service feature is available for use in Azure OpenAI Studio and other programming languages.
 
 ### Challenges and Risks
 
@@ -106,6 +127,28 @@ Privacy & Security: Respect privacy and consider security at all times, even aft
 
 Inclusiveness: Empower everyone regardless of ability, gender, and other factors
 
-Transparency: Systems shouold be understandable
+Transparency: Systems shouold be understandable. People can trust it.
 
 Accountability: People should be accountable. Engineers and designers should work with a governance framework
+
+
+### Fundamentals of Azure OpenAI Service
+
+Capabilities of OpenAI AI models
+
+There are several categories of capabilities found in OpenAI AI models, three of these include:
+
+| Capability | Examples |
+
+|Generating natural language|
+
+Such as: summarizing complex text for different reading levels, suggesting alternative wording for sentences, and much more|
+
+|Generating code|
+
+Such as: translating code from one programming language into another, identifying and troubleshooting bugs in code, and much more|
+
+|Generating images|
+
+Such as: generating images for publications from text descriptions and much more|
+
