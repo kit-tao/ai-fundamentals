@@ -131,6 +131,7 @@ Transparency: Systems shouold be understandable. People can trust it.
 
 Accountability: People should be accountable. Engineers and designers should work with a governance framework
 
+https://tutorialsdojo.com/azure-responsible-ai/
 
 ### Fundamentals of Azure OpenAI Service
 
