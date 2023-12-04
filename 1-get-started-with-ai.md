@@ -141,9 +141,9 @@ There are several categories of capabilities found in OpenAI AI models, three of
 | Capability | Examples |
 | - | - |
 
-|Generating natural language|Such as: summarizing complex text for different reading levels, suggesting alternative wording for sentences, and much more|
+| Generating natural language | Such as: summarizing complex text for different reading levels, suggesting alternative wording for sentences, and much more |
 
-|Generating code|Such as: translating code from one programming language into another, identifying and troubleshooting bugs in code, and much more|
+| Generating code | Such as: translating code from one programming language into another, identifying and troubleshooting bugs in code, and much more |
 
-|Generating images|Such as: generating images for publications from text descriptions and much more|
+| Generating images | Such as: generating images for publications from text descriptions and much more |
 
